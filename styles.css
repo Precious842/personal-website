@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: fantasy, sans-serif;
+    background-color: bisque;
+}
+
+#navbar {
+    text-align: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    
+}
+
+
+#image {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 2px solid #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.gradient-background {
+    height: 100vh; 
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: black;
+    text-align: center; 
+}
+#profile {
+font-size: larger;
+}
+.styled-button {
+  background-color:black;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+    }
+    
+    .left, .right {
+        width: 50%;               
+        float: left;              
+        padding: 2px;           
+        box-sizing: border-box;   
+        
+    }
+    
+    .right {
+        float: right;             
+    }
+    .form-group input{
+        width:70%;
+        height:100%;
+        padding: 10px;
+        border:1px solid ;
+        border-radius:5px;
+     }
+     main {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        padding: 50px;
+        font-size:medium;
+    }
+        
+          
+    
+    
+    
+    
+
+
+
